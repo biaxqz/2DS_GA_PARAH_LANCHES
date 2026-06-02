@@ -10,12 +10,43 @@
     padding: 70px;
 }
 
-.img {
-    width: 300px;
-    height: auto;
-    
+.conteiner{
+}
+.produto {
+ justify-content: center;
+ display: flex;
+ padding: 10px;
+}
+.produto img {
+    width: 110px;
+    height: 90;
+    border-radius: 10px;
 }
 
-.img :hover {
-    transform: scale(1.25);
+.produto img:hover {
+    transform: scale(1.1);
 }
+.titulo_produto{
+    justify-content:center;
+    display:flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: darkgray;
+}
+
+.descr_produto {
+    text-align: center;
+    justify-content:center;
+    display:flex;
+    align-items: center;
+    font-size: 10px;
+    color: darkgray;
+}
+.bnt_somar{
+    justify-content:center;
+    display:flex;
+    width: 20px;
+    height: 20px;
+    background-color: chocolate;
+}    
